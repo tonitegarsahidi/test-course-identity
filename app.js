@@ -1,3 +1,4 @@
+const serverless = require("serverless-http");
 const express = require('express');
 const dotenv = require('dotenv');
 const mysql = require('mysql2/promise');
@@ -65,3 +66,5 @@ app.post('/api/auth/login', async (req, res) => {
 app.listen(port, () => {
     console.log(`IdentityService is running on ${host}:${port}`);
 });
+
+module.exports.handler = serverless(app);

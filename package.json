@@ -2,7 +2,7 @@
   "name": "test-course-identity",
   "version": "1.0.0",
   "description": "identity server for auth ones",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +22,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.1",
-    "mysql2": "^3.5.1"
+    "mysql2": "^3.5.1",
+    "serverless-http": "^3.2.0"
   }
 }
