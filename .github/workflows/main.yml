@@ -28,3 +28,12 @@ jobs:
         # or if using AWS credentials directly
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        HOST: localhost
+        PORT: 8081
+        DB_HOST: testcoursedev.cyoiqruurdqt.eu-north-1.rds.amazonaws.com
+        DB_USER: testcoursedev
+        DB_PASSWORD: Duni4SementaraAkhiratSelamany4
+        DB_NAME: testcoursedev
+        DB_PORT: 3306
+        DB_PASSWORD_PEPPER: l4osJah3danKetumb@rrrr
+        JWT_SECRET: 521398c85df1391a7400600c465dbb86aa84d446ae017e255005d6b295f51c84
