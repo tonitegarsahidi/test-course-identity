@@ -29,17 +29,8 @@ provider:
 
 
 # you can define service wide environment variables here
-environment:
-  variable1: value1
-  HOST: localhost
-  PORT: 8081
-  DB_HOST: testcoursedev.cyoiqruurdqt.eu-north-1.rds.amazonaws.com
-  DB_USER: testcoursedev
-  DB_PASSWORD: Duni4SementaraAkhiratSelamany4
-  DB_NAME: testcoursedev
-  DB_PORT: 3306
-  DB_PASSWORD_PEPPER: l4osJah3danKetumb@rrrr
-  JWT_SECRET: 521398c85df1391a7400600c465dbb86aa84d446ae017e255005d6b295f51c84
+# environment:
+#   variable1: value1
 
 # you can add packaging information here
 #package:
